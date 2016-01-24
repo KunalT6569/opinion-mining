@@ -1,0 +1,10 @@
+1. Initialize the variables
+2. Check for the availability of all dictionaries containing the serialized list of words.
+3. Take a sentence and clean the sentence by removing the extra white spaces from it.
+4. Now tokenize the sentence i.e. break the whole sentence into an array of words.
+5. Check for the presence of any negative prefix in the sentence like isn't,not etc as they mostly reverse the polarity of the sentence.
+6. Initalize the score of each positive, negative and neutral to 1.
+7. Loop through each of the list and filter the words with very low or high length and also, the word should not be in the word list.
+8. Now, check for the occurence of all words in the positive, negative and neutral words.
+9. Based on the number of occurrences of positive, negative and neutral words, find the probability of occurrence of each of the polarity.
+10.Based on the final results of each of the polarity, the dominant probability is supposed to be the polarity of the whole sentence.

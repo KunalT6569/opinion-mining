@@ -1,0 +1,1 @@
+Just create a new table "minergod" and configure the first line in mfunctions.php file for SQL database connection.
